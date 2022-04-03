@@ -1,4 +1,6 @@
 package org.Solvd.supermarket.model;
+import org.Solvd.supermarket.exceptions.*;
+
 import java.util.*;
 
 public class Sale {
@@ -56,6 +58,23 @@ public class Sale {
             total=total+p.getPrice();
         }
         return total;
+    }
+
+    //Event: 25% discount on the 3rd product
+    public void Discount(Event event) throws LessThanThreeProductsException {
+        Calendar currentDate = Calendar.getInstance();
+
+        if (currentDate==event.getDate()){
+            this.getProducts().get(2).Discount(event.getDiscount());
+        }else{
+            throw new LessThanThreeProductsException("A discount on the 3rd product cannot be aply, there's less than 3 products");
+        }
+    }
+
+    public void paymentControl(double saleTotal) throws NotEnoughFundsException{
+        if (this.getPayment().getWireTransfer().getFunds() < saleTotal){
+            throw new NotEnoughFundsException("Not enough funds");
+        }
     }
 
     public void showReceipt(){

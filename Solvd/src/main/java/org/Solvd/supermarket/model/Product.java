@@ -1,4 +1,6 @@
 package org.Solvd.supermarket.model;
+import org.Solvd.supermarket.exceptions.LessThanThreeProductsException;
+
 import java.util.*;
 
 public class Product {
@@ -92,6 +94,11 @@ public class Product {
             System.out.println("The product hasn't expired yet");
         }
     }
+
+    public void Discount(double discountP){
+        this.setPrice(this.getPrice()-(this.getPrice()*discountP));
+    }
+
     @Override
     public String toString(){
         return "Product{" +"Id='"+this.getId()+ ", name='" + this.getName() + ", brand=" + this.getBrand() +", category=" + this.getCategory() + ", price='" + this.getPrice() + ", expiry date='" + this.getExp() + ", stock='" + this.getStock()  +", supplier='" + this.getSupplier()  + '}';

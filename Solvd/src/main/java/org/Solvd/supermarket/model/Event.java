@@ -12,6 +12,7 @@ public class Event {
         this.setDiscount(discount);
     }
 
+
     //Setters
     public void setDate(Calendar date){
         this.date=date;
@@ -25,6 +26,7 @@ public class Event {
     public double getDiscount(){return this.discount;}
 
     //Method
+
     @Override
     public String toString(){
         return "Event{" + "date='" + this.getDate() +  ", discount='" + this.getDiscount() +'}';
