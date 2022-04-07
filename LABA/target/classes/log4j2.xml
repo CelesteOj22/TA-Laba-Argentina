@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+<Appenders>
+    <Console name="LogToConsole" target="SYSTEM_OUT">
+        <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+    <File name="LogToSupermarket" fileName="Logs/supermarket.log">
+        <PatternLayout>
+            <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+        </PatternLayout>
+    </File>
+    <File name="LogToLinkedList" fileName="Logs/linkedList.log">
+        <PatternLayout>
+            <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+        </PatternLayout>
+    </File>
+</Appenders>
+
+<Loggers>
+    <Logger name="org.Solvd" level="DEBUG" additivity="false">
+        <AppenderRef ref="LogToSupermarket"/>
+        <AppenderRef ref="LogToLinkedList"/>
+        <AppenderRef ref="LogToConsole"/>
+    </Logger>
+
+    <Root level="error">
+        <AppenderRef ref="LogToSupermarket"/>
+        <AppenderRef ref="LogToLinkedList"/>
+        <AppenderRef ref="LogToConsole"/>
+    </Root>
+    
+</Loggers>
+</Configuration>

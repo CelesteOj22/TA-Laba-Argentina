@@ -1,0 +1,41 @@
+2022-04-06 14:54:46,274 INFO o.S.s.Main [main] Supermarket{Id='22, name='Wallmart, address='Main Road 345, phone number='99885533}
+2022-04-06 14:54:46,321 INFO o.S.s.Main [main] Branch{Id='1, name='Branch 1, address='Saint Laurent St.123, phone number='11223344, city='Springfield, manager=Employee{Id='1, name='Lorenzo Marccini, age=29, date of birth='java.util.GregorianCalendar[time=?,areFieldsSet=false,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Buenos_Aires",offset=-10800000,dstSavings=0,useDaylight=false,transitions=62,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=1992,MONTH=10,WEEK_OF_YEAR=14,WEEK_OF_MONTH=1,DAY_OF_MONTH=22,DAY_OF_YEAR=96,DAY_OF_WEEK=4,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=2,HOUR_OF_DAY=14,MINUTE=54,SECOND=46,MILLISECOND=55,ZONE_OFFSET=-10800000,DST_OFFSET=0], address='Morengo St. 345, phone number='99887766, position='Manager, wage='600.0, seniority='4},employees=null}
+2022-04-06 14:54:46,477 ERROR o.S.s.Main [main] This product is not on the list, it cannot be remove
+2022-04-06 14:54:46,477 ERROR o.S.s.Main [main] A discount on the 3rd product cannot be aply, there's less than 3 products
+2022-04-06 14:54:46,477 ERROR o.S.s.Main [main] This employee is not on the list, it cannot be remove
+2022-04-06 14:54:46,477 ERROR o.S.s.Main [main] Not enough funds
+2022-04-06 14:54:46,477 INFO o.S.s.Main [main] Not enough funds
+2022-04-06 14:54:46,477 INFO o.S.s.m.Receipt [main] Wallmart
+Branch 1
+Saint Laurent St.123
+11223344
+Wed Apr 06 14:54:46 ART 2022
+
+-------------------------------------------
+2022-04-06 14:54:46,477 INFO o.S.s.m.Receipt [main] Rice	Minute		 $25.0
+2022-04-06 14:54:46,493 INFO o.S.s.m.Receipt [main] Soap	Dove		 $30.0
+2022-04-06 14:54:46,493 INFO o.S.s.m.Receipt [main] -------------------------------------------
+TOTAL				$55.0
+2022-04-06 23:34:05,478 INFO o.S.s.Main [main] Supermarket{Id='22, name='Wallmart, address='Main Road 345, phone number='99885533}
+2022-04-06 23:34:05,525 INFO o.S.s.Main [main] Branch{Id='1, name='Branch 1, address='Saint Laurent St.123, phone number='11223344, city='Springfield, manager=Employee{Id='1, name='Lorenzo Marccini, age=29, date of birth='java.util.GregorianCalendar[time=?,areFieldsSet=false,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="America/Buenos_Aires",offset=-10800000,dstSavings=0,useDaylight=false,transitions=62,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=1992,MONTH=10,WEEK_OF_YEAR=14,WEEK_OF_MONTH=1,DAY_OF_MONTH=22,DAY_OF_YEAR=96,DAY_OF_WEEK=4,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=34,SECOND=5,MILLISECOND=447,ZONE_OFFSET=-10800000,DST_OFFSET=0], address='Morengo St. 345, phone number='99887766, position='Manager, wage='600.0, seniority='4},employees=null}
+2022-04-06 23:34:05,588 ERROR o.S.s.Main [main] This product is not on the list, it cannot be remove
+2022-04-06 23:34:05,588 ERROR o.S.s.Main [main] A discount on the 3rd product cannot be aply, there's less than 3 products
+2022-04-06 23:34:05,588 ERROR o.S.s.Main [main] This employee is not on the list, it cannot be remove
+2022-04-06 23:34:05,588 ERROR o.S.s.Main [main] Not enough funds
+2022-04-06 23:34:05,603 INFO o.S.s.Main [main] Not enough funds
+2022-04-06 23:34:05,603 ERROR o.S.s.Main [main] This sale is not on the list, it cannot be remove
+2022-04-06 23:34:05,603 INFO o.S.s.m.Receipt [main] Wallmart
+Branch 1
+Saint Laurent St.123
+11223344
+Wed Apr 06 23:34:05 ART 2022
+
+-------------------------------------------
+2022-04-06 23:34:05,603 INFO o.S.s.m.Receipt [main] Rice	Minute		 $25.0
+2022-04-06 23:34:05,603 INFO o.S.s.m.Receipt [main] Soap	Dove		 $30.0
+2022-04-06 23:34:05,603 INFO o.S.s.m.Receipt [main] -------------------------------------------
+TOTAL				$55.0
+2022-04-07 01:08:16,598 INFO o.S.l.main [main] Start
+2022-04-07 01:08:16,691 INFO o.S.l.main [main] We list from main
+2022-04-07 01:08:16,691 INFO o.S.l.main [main] delete an element
+2022-04-07 01:08:16,691 INFO o.S.l.main [main] we list again
