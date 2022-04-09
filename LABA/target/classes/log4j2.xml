@@ -28,6 +28,6 @@
         <AppenderRef ref="LogToLinkedList"/>
         <AppenderRef ref="LogToConsole"/>
     </Root>
-    
+
 </Loggers>
 </Configuration>

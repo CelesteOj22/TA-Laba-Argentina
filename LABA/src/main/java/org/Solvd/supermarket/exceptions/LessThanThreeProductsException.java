@@ -1,6 +1,7 @@
 package org.Solvd.supermarket.exceptions;
 
 import java.io.IOException;
+import java.lang.Throwable;
 
 public class LessThanThreeProductsException extends IOException {
     public LessThanThreeProductsException(){}

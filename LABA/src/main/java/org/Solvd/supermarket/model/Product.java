@@ -1,10 +1,9 @@
 package org.Solvd.supermarket.model;
-import org.Solvd.supermarket.Main;
-import org.Solvd.supermarket.exceptions.LessThanThreeProductsException;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.*;
+import java.util.Calendar;
 
 public class Product {
     private static final Logger LOGGER = LogManager.getLogger(Product.class);

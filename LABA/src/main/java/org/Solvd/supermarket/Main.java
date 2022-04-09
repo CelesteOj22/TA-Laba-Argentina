@@ -34,11 +34,11 @@ public class Main {
 
         //Instantiate Customer, Products, Event and Sale
         Bank santander=new Bank(6,"Santander","adress123","santander@gmail.com");
-        Customer customer1= new Customer(120,"Maria Lancaster", "Marcus St. 666", "88222993",123123);
-        Customer customer2= new Customer(300,"Josh Lane", "Morengo St. 666", "99109290",666666);
         PaymentMethod payment1 = new PaymentMethod(20);
         WireTransfer wireTransfer=new WireTransfer(22,santander,'2');
         PaymentMethod payment2=new PaymentMethod(wireTransfer);
+        Customer customer1= new Customer(120,"Maria Lancaster", "Marcus St. 666", "88222993",123123,payment1);
+        Customer customer2= new Customer(300,"Josh Lane", "Morengo St. 666", "99109290",666666,payment2);
 
         //Products expiration date
         Calendar expDate1= new GregorianCalendar();
@@ -49,7 +49,7 @@ public class Main {
         Product rice=new Product(1,"Rice","Minute","Food",25,expDate1);
         Product soap=new Product(2,"Soap","Dove","Bath",30,expDate2);
         Product shampoo=new Product(3,"Shampoo","Dove","Bath",2,expDate2);
-        ArrayList<Product> products = new ArrayList<>();
+        ArrayList<Product> products = new ArrayList<Product>();
         Management productManagement=new Management(products);
         productManagement.addProducts(rice);
         productManagement.addProducts(soap);
@@ -59,8 +59,8 @@ public class Main {
         eventDate.set(2022, Calendar.APRIL, 3);
         Event event1=new Event(eventDate,0.25);
 
-        Sale sale1= new Sale(1,wallmart,branch1,products,payment2,customer1);
-        Sale sale2= new Sale(2,wallmart,branch1,products,payment1,customer2);
+        Sale sale1= new Sale(1,wallmart,branch1,products,customer1);
+        Sale sale2= new Sale(2,wallmart,branch1,products,customer2);
         ArrayList<Sale> sales = new ArrayList<>();
         Management saleManagement=new Management(sales);
         saleManagement.addSale(sale1);
@@ -90,7 +90,7 @@ public class Main {
         }
 
         //Payment without funds
-        if (sale1.getPayment().equals(payment2)) {
+        if (sale1.getCustomer().getPay().equals(payment2)) {
             try {
                 sale1.paymentControl(saleTotal);
             } catch (NotEnoughFundsException e) {
