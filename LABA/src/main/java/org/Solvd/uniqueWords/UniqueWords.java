@@ -1,6 +1,4 @@
 package org.Solvd.uniqueWords;
-
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.commons.io.FileUtils;
@@ -22,6 +20,13 @@ public class UniqueWords {
         int c=0;
 
         HashMap<String,Integer> results= new HashMap<String,Integer>();
+        txt = txt.replaceAll("\\,"," ");
+        txt = txt.replaceAll("\\."," ");
+        txt = txt.replaceAll("\\-"," ");
+        txt = txt.replaceAll("\\?"," ");
+        txt = txt.replaceAll("\\¿"," ");
+        txt = txt.replaceAll("\\("," ");
+        txt = txt.replaceAll("\\)"," ");
         String[] arraytxt = txt.split(" ");
         for (String word : arraytxt){
             if(results.containsKey(word)){
@@ -32,6 +37,7 @@ public class UniqueWords {
         }
         try {
             FileUtils.writeStringToFile(new File("src/main/Resources/results.txt"), "There are "+ c+" unique words\n"+"List of words found in the article and number of ocurrences:"+ results.toString(), "UTF-8");
+            LOGGER.info("There are "+ c+" unique words");
         } catch (IOException e) {
             LOGGER.error(e);
         }

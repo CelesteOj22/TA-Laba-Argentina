@@ -14,20 +14,63 @@
             <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
         </PatternLayout>
     </File>
+    <File name="LogToUniqueWords" fileName="Logs/uniqueWords.log">
+        <PatternLayout>
+            <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+        </PatternLayout>
+    </File>
+    <File name="LogToFastFood" fileName="Logs/FastFoodEnums.log">
+        <PatternLayout>
+            <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+        </PatternLayout>
+    </File>
+    <File name="LogToReflection" fileName="Logs/reflection.log">
+        <PatternLayout>
+            <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+        </PatternLayout>
+    </File>
+    <File name="LogToThread" fileName="Logs/threads.log">
+        <PatternLayout>
+            <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+        </PatternLayout>
+    </File>
 </Appenders>
 
 <Loggers>
-    <Logger name="org.Solvd" level="DEBUG" additivity="false">
+    <Logger name="org.Solvd.supermarket" level="DEBUG" additivity="false">
         <AppenderRef ref="LogToSupermarket"/>
+        <AppenderRef ref="LogToConsole"/>
+    </Logger>
+
+    <Logger name="org.Solvd.linkedList" level="DEBUG" additivity="false">
         <AppenderRef ref="LogToLinkedList"/>
         <AppenderRef ref="LogToConsole"/>
     </Logger>
 
+    <Logger name="org.Solvd.uniqueWords" level="DEBUG" additivity="false">
+        <AppenderRef ref="LogToUniqueWords"/>
+        <AppenderRef ref="LogToConsole"/>
+    </Logger>
+
+    <Logger name="org.Solvd.FastFoodENUMS" level="DEBUG" additivity="false">
+        <AppenderRef ref="LogToFastFood"/>
+        <AppenderRef ref="LogToConsole"/>
+    </Logger>
+
+    <Logger name="org.Solvd.Reflection" level="DEBUG" additivity="false">
+        <AppenderRef ref="LogToReflection"/>
+        <AppenderRef ref="LogToConsole"/>
+    </Logger>
+
+    <Logger name="org.Solvd.Thread" level="DEBUG" additivity="false">
+        <AppenderRef ref="LogToThread"/>
+        <AppenderRef ref="LogToConsole"/>
+    </Logger>
+
     <Root level="error">
-        <AppenderRef ref="LogToSupermarket"/>
-        <AppenderRef ref="LogToLinkedList"/>
         <AppenderRef ref="LogToConsole"/>
     </Root>
+
 
 </Loggers>
 </Configuration>

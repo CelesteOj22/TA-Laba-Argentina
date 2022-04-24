@@ -15,8 +15,8 @@ public class main {
 
         LOGGER.info("We list from main");
         n1.toList();
-        LOGGER.info("delete an element");
 
+        LOGGER.info("delete an element");
         try {
             n1.delete(2);
             n1.delete(5);

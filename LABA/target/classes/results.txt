@@ -1,209 +1,198 @@
-There are 2695 unique words
-List of words found in the article and number of ocurrences:{multi-tasking,=1, functions=1, investigations,=1, (which=1, and
-substantially=1, slower=1, without=3, these=1, begins=1, sounds,=1, would=2, outcomes=1, absent=1, understanding=1, because=2, �a=1, environment.
-the=2, successfully=1, solid=1, compared.=2, dealing=1, testing
-the=1, require=2, analysis=2, version=1, apparent=1, planning=1, 2=1, environments.=2, 3=1, selection=1, much=5, role=1, manual=5, oracles.=1, things.=1, example=1, result=2, base
-search,=1, same=2, procedures=1, feeding=1, differences
+There are 2993 unique words
+List of words found in the article and number of ocurrences:{=241, functions=2, 
+results=1, and
+substantially=1, slower=1, without=3, these=2, begins=1, of
+oracles=1, would=2, outcomes=1, 
+after=1, absent=1, understanding=1, because=2, �a=1, successfully=1, solid=1, dealing=1, testing
+the=1, require=2, analysis=3, version=1, apparent=1, planning=1, 1=1, 2=3, 3=1, selection=1, 4=1, much=5, role=1, interprets=1, manual=5, example=1, result=2, characters=1, same=3, procedures=1, feeding=1, differences
 �=1, information
-can=1, after=4, behavior=1, automation
-architecture.=1, computers=1, it,=1, a=52, it.=1, i=3, mechanics=1, data,=1, the=163, automating=1, information=4, sometimes
+can=1, after=4, listing=1, behavior=2, computers=1, a=52, sets=2, e=1, g=1, i=3, mechanics=1, the=163, automating=1, obvious=1, information=6, sometimes
 the=1, see
-these=1, illustration=1, combined=1, postcondition=1, databases,=1, standard=1, reports=2, testing
-can=1, generates=1, correct=2, inputs=7, good=1, syntactic=1, generated=1, status,=1, priorities,=1, besides=1, displays,=2, api.
-automating=1, area=1, of
+these=1, illustration=1, routines=1, combined=1, postcondition=1, standard=1, reports=2, testing
+can=1, generates=1, correct=2, inputs=8, interrogations=1, good=1, syntactic=1, generated=1, besides=1, area=1, of
 the=2, testers=2, need=11, for
 a=1, its=2, modeled=1, often=7, should
 be=1, oracles
-test=1, check=1, back-end=2, activities.=2, variables,
-memory=1, utilities,=2, tests=12, supposed=1, therefore=2, front-end=1, useful=2, be
-keystrokes,=1, private=1, technical=1, applied=1, phasing=1, obsolete=1, �correct�=1, interface=2, provides=4, program
+test=1, check=1, tests=17, supposed=1, therefore=2, useful=2, private=1, technical=1, applied=1, phasing=1, obsolete=1, �correct�=1, interface=2, engine=1, provides=4, program
 isn�t=1, scope=2, environment
-or=1, concatenation,=1, selecting=1, responded=1, testing
+or=1, end=3, selecting=1, responded=1, testing
 software=1, identify=5, multiple=2, perform=4, testware
-elements=1, special=1, with=14, environment=12, there=7, automate=3, when
-you=1, detected=1, smaller=2, illustrates=1, results.=7, for
+elements=1, special=1, with=15, environment=19, there=7, automate=4, well=1, when
+you=1, detected=1, smaller=2, illustrates=1, considered=3, for
 testing=1, and
-manipulated=1, arithmetic=1, results,=1, utilities=3, changing=1, testware.=1, humans
-know=1, testware,=2, gradually=1, sequence.
-conclusion
-test=1, the
-architecture=1, flow=3, order=1, splitting=1, requirements.
-understanding=1, navigation.=1, environment).=1, testing=19, understand=4, volumes=1, a
+manipulated=1, arithmetic=1, utilities=5, changing=1, occurs=1, humans
+know=1, gradually=1, the
+architecture=1, flow=3, order=1, splitting=1, testing=22, management
+2=1, understand=4, volumes=1, a
 human=1, be
-postscript=1, system=10, that
-obviously=1, even=3, etc.=2, display
-windows=1, binary=1, analyze=1, results.
-however,=1, gui=6, results�=1, environment.=3, larger=1, other=1, processes,=1, selected.=1, in
-the=1, additionally,=1, have=11, obvious,=1, decisions=1, pipes,=1, outcome=1, done,=1, are
-continually=1, successful
+postscript=1, system=11, that
+obviously=1, even=3, display
+windows=1, binary=1, analyze=1, gui=7, results�=1, managers=1, larger=1, other=1, 
+consume=1, in
+the=1, have=11, base
+search=1, decisions=1, 
+test=1, outcome=1, are
+continually=1, miss
+things=1, successful
 automation=1, of
 automating=1, framework=2, automation
 engines=1, powerful=1, stored=3, overly=1, and
-identifying=1, api.=1, pictures,=1, movement=1, environments=3, tester
-decides=1, upon=2, employed=1, automation=39, to
-identify=1, time.=1, whether=1, than
-computers=1, problems.=2, verification=2, all=13, always=2, new=1, comparison=5, including=1, 1
-models=1, documentation,=1, complexity.
-after=1, were=1, considered.=2, considered,=1, running=7, effective=6, initiates=1, times=2, (e.g.,=1, the
-automation=1, and=100, today=1, test
-(sut).
-introduction
-many=1, but,=1, manifest=1, requirement=1, specific=5, any=3, errors,=1, errors.=1, remainder=1, formally=1, accessibility=1, same.=1, discussion=1, are
-particularly=1, program
-inputs,=1, into
-the=1, api=1, fully=1, displayed=2, models=3, using=3, environmental=1, expected=6, want=2, environments.
-the=1, of
-oracles,=1, monitoring=2, each=6, input=3, running
+identifying=1, movement=1, outputs=2, 
+information=1, environments=7, tester
+decides=1, screen=1, upon=2, platforms=1, employed=1, points=1, automation=43, updating=1, to
+identify=1, etc=5, whether=1, than
+computers=1, verification=2, all=13, always=2, new=1, comparison=6, including=1, below=1, 1
+models=1, 
+there=3, were=1, running=8, effective=9, initiates=1, times=2, the
+automation=1, and=100, today=1, manifest=1, requirement=1, specific=5, any=3, application=1, activities=2, 
+although=1, remainder=1, formally=1, 
+�=1, accessibility=1, discussion=1, are
+particularly=1, test
+=1, into
+the=1, api=3, state=3, fully=1, displayed=2, models=3, using=3, environmental=1, expected=6, want=2, monitoring=2, each=6, input=3, running
 the=1, creating=1, alternatives=1, must=11, different
-products=1, corruption=1, flash=1, automatically=2, another=1, messages,=2, availability=4, than
-through=1, weighed=2, two=4, tradeoff=1, cases,
-data,=1, incompatible=1, are=34, does=1, where=2, can
-depict=1, mechanism=1, situation=1, creation=1, think=1, environments.
-it=1, model,=1, combining=1, describes=1, call=1, diagram=1, such=8, automated=19, means
-identifying=1, describe=3, some
-sut.=1, thing=1, understood=1, through=4, and
+products=1, corruption=1, flash=1, complexity=1, automatically=2, another=2, availability=4, than
+through=1, weighed=2, two=4, tradeoff=1, incompatible=1, are=34, does=1, where=2, can
+depict=1, mechanism=1, situation=2, creation=1, think=1, 
+a=3, combining=1, describes=1, call=1, diagram=2, such=8, automated=20, means
+identifying=1, describe=3, 
+prerequisites=1, thing=1, understood=2, through=4, and
 automated=1, descriptions
-we=1, events
-1.=1, tedious=1, structural
-description=1, when.=1, run=8, fact,=1, repeated=1, cases
-�=3, characteristics,=1, features=2, view=2, diagram,
-information=1, continue=1, traversed=1, things=3, huge=1, has=5, starts=1, results=20, those=3, stability=1, realize=1, actual=4, given=2, large
-number=1, miss
-things,=1, involves=2, might=2, of
-events.=1, practical
-approaches.=1, develop=1, technical
-requirements.=1, tested,=1, generic;=1, the
-automated=1, longer=1, practicality=1, factors.
-models=1, automate.=1, communications,=1, well.
-prerequisites=1, fields=1, values
+we=1, 
+architecting=1, tedious=1, structural
+description=1, run=9, repeated=1, cases
+�=3, features=2, view=2, continue=1, traversed=1, things=4, huge=1, has=5, starts=1, results=29, those=3, stability=1, realize=1, actual=4, given=2, large
+number=1, involves=2, might=2, develop=1, generic;=1, the
+automated=1, longer=1, practicality=1, fields=1, values
 through=1, for
-large=1, string=1, �user=1, classes=1, impossible=1, exercises
-5.=1, description=3, generating=1, automation
-architecture.)=1, not=7, about
-the=1, now=1, and/or=2, factor=2, derived=1, early=1, these
-effects=1, changes.
-a=1, interfaces=3, and
-available=1, components.=2, start=1, pass/fail=1, way=1, comparison,=1, what=8, assuming=1, typical=1, observing=1, risk=1, time=2, important.=2, them.=3, application.=1, them,=1, modeling=2, prohibitive=1, collected=1, program=15, when=13, put=1, monitored=1, identified=2, broad=1, automation
-architecture=1, plan=1, case=1, generation=2, having=1, depends=1, another,
-consume=1, capture,
-results=1, can�t
-observe=1, manually,=1, dates=1, management
-2.=1, attention.=1, be
-considered,=1, environment.
-although=1, provide=1, cases,=1, cases.=1, automated
-testing=1, valuable=1, running,=1, requires=2, depicted.=1, test,=2, flags=1, direct=1, pattern=1, exercise=1, planned=1, test.=3, unknown=1, computer=5, ways=1, feeds=1, categories=1, architecture=12, porting=1, etc.,
-that=1, more=13, performed=2, encountered=1, automated.
-there=1, organization=1, analyzes,=1, requirements,=1, fed=2, before=3, simple=3, used=4, process,=1, is
-intended=1, enlightening=1, shows=1, major=1, shown=2, activities
-6.=1, checked=1, consider=2, necessitate=1, connections=1, described=1, exercises.=1, hangs=1, kind=1, be
-articulated=1, (disk=1, doesn�t.=1, automation
+large=1, memory=1, string=1, �user=1, classes=1, impossible=1, description=3, effort=2, generating=1, not=7, about
+the=1, now=1, and/or=2, factor=2, derived=1, early=1, pipes=1, these
+effects=1, interfaces=6, and
+available=1, start=1, pass/fail=1, way=1, what=8, assuming=1, typical=1, observing=1, risk=1, time=3, exercises
+5=1, modeling=2, prohibitive=1, collected=1, program=16, when=14, put=1, multi=1, monitored=1, priorities=1, identified=2, broad=1, automation
+architecture=3, plan=1, case=1, generation=2, images=1, having=1, depends=1, can�t
+observe=1, dates=1, provide=1, automated
+testing=1, valuable=1, requires=2, flags=1, direct=1, pattern=1, exercise=1, planned=1, unknown=1, computer=5, ways=1, 
+mold=1, feeds=1, screen
+navigation=1, categories=1, architecture=16, porting=1, more=13, performed=2, encountered=1, organization=1, 
+but=1, fed=2, before=3, simple=3, used=4, is
+intended=1, 
+it=1, enlightening=1, shows=1, major=1, shown=2, checked=1, be
+keystrokes=1, consider=2, necessitate=1, connections=1, described=1, manually=1, hangs=1, kind=1, be
+articulated=1, automation
 because=1, human
-can=1, done=2, system.=1, both=1, most=9, important=4, testing.=2, effects=1, testing,=1, outside=2, keep=1, effect=1, using
-modeling=1, ease=1, critical=1, analysis,=1, values=5, part=2, their=1, diagrams=1, platforms.=1, isn�t
-there.
-architecting=1, point=1, general=1, tester-free=1, structural=1, miracle=1, designed=1, memory,=1, requirements=3, process=3, different
-types=1, also=8, concentration=1, various=1, program�s=1, them
-out=1, interfere=1, simply=1, account=1, exercise
+can=1, done=3, both=1, most=9, important=6, effects=1, outside=2, keep=1, effect=1, using
+modeling=1, correct
+permissions=1, ease=1, critical=1, values=5, part=2, their=1, investigations=1, diagrams=1, point=1, general=2, sounds=1, structural=1, miracle=1, designed=1, requirements=5, process=4, different
+types=1, also=8, concentration=1, 
+memory=1, various=1, attention=1, program�s=1, them
+out=1, interfere=1, front=1, program
+inputs=1, simply=1, account=1, �results=1, exercise
 can=1, been=1, run
-key=1, areas=1, viewing=1, resource,=1, depending=1, retrieval=1, complex=2, record=3, evaluated=1, sut:=1, sure=1, carefully=1, going=1, impact=2, sut.=5, program
-state=1, sut,=5, readable,
-which=1, an=11, as=14, at=3, interpretation=1, cases
-exist,=1, dealt=1, consideration=1, looking=1, evaluating=1, abstract
+key=1, areas=1, viewing=1, expected
+differences=1, depending=1, retrieval=1, complex=2, record=3, evaluated=1, scm=1, sut:=1, databases=1, sure=1, carefully=1, going=1, impact=2, documentation=1, program
+state=1, an=11, 
+data=1, as=14, at=3, interpretation=1, dealt=1, consideration=1, looking=1, evaluating=1, abstract
 designing=1, based
 oracle=1, source�=1, and
-considerations=1, compare=3, be=45, interconnected,=1, interpreting
-a=1, quality,=1, how=1, see=1, systems=3, by=11, suts=1, develops=1, responses.=1, mind=1, set=2, architectures.
-frequently=1, possible=3, right=1, more
-quickly=1, compares=1, how
-the=1, etc.,
-mold=1, somewhat=1, under=1, did=1, states,=2, states.=1, sometimes=3, diverse
-functions=1, expected
-differences.
-test=1, do=2, launching=2, boundaries=1, test.
-a=1, programming=1, possibly=2, which=7, needs=3, test=61, failed.=1, take=1, and
+considerations=1, compare=3, be=46, interpreting
+a=1, how=1, communications=1, see=1, systems=3, by=11, suts=1, develops=1, compared=2, mind=1, completion=1, tasking=1, set=3, possible=3, right=1, more
+quickly=1, compares=1, activities
+6=1, how
+the=1, somewhat=1, under=1, did=1, interconnected=1, sometimes=3, diverse
+functions=1, do=2, launching=2, correctly=2, boundaries=1, exclude=1, programming=1, possibly=2, which=8, needs=3, test=67, results3
+=1, take=1, variables
+4=1, 
+conclusion
+test=1, and
 particularly=1, immediate=1, plan
 the=1, final=1, varies=1, parts=1, related
 applications=1, majority
-of=1, little=2, some=5, for=48, as
+of=1, little=2, some=5, for=48, back=2, as
 difficult=1, capable=1, be
-advantageous=1, states=1, related=1, multiple
-environments=1, captured=1, it,
-and=1, trouble=1, passed=3, human=7, less
+advantageous=1, states=4, related=1, 
+printers=1, multiple
+environments=1, captured=1, trouble=1, passed=3, human=7, less
 effective=1, just=1, proper
-conclusions=1, covers=1, digital=1, understood,=1, practical=1, captures=1, reporting.=1, monitor=1, all
+conclusions=1, reporting=1, covers=1, digital=1, practical=2, captures=1, monitor=1, all
 are=1, testers
-think=1, existing=3, form=2, although=1, interpret=2, humans=1, subset=2, very=1, modes=1, software
-today=1, interacts=2, output=3, navigation=1, sequence.=1, find.
-there=1, easily=3, unaware=1, model=6, usually=1, if=3, tasks=3, reduce=1, is
-important=1, to
-test=1, in=35, made=2, is=44, being=2, it=15, �program=1, printed=1, present.=1, contents=1, become=1, semantic=1, images,=1, managers,=1, �results.�
-results=1, focuses=1, thinking=1, don�t=1, extraordinarily=1, eight=1, updating.
-two=1, world=1, file=1, oracles=2, ability=2, side=1, the
-sut=1, may=15, implementing=1, could=1, change=4, draw=1, generally=1, machine=1, and
-outputs.=1, able=1, �trained�=1, report=1, what
-things=1, facilities=1, compensate=1, run
-3.=1, situation,=1, use=3, several=6, (these=1, second=3, that=32, sift=1, faster=2, be.1,2=1, split=2, solution=1, than=10, tests.=4, tests,=1, directly=2, different=8, communication=1, occur=1, difficult=3, includes=2, definitive=1, steps=1, becomes=2, relevant=3, feed=1, task=1, true=1, retrieve=1, testware=5, errors=2, problems=3, since=1, no=2, legacy=1, and
-these=1, best=2, investigate=1, effective.
-automated=1, automation
-to=1, of=68, task.=1, internal
-states.=1, programs,=2, make=1, programs.=1, on=12, highly=1, execution=2, or=19, plays=1, set-up=1, include,=1, interesting=1, control=3, demanding=1, structure=1, an
-automation=1, tools.=1, tools,=2, information,=1, completion,�=1, easier=2, descriptive=1, information.=1, work.=1, architectures=1, indications=1, we
-must=1, vary=1, about=1, automation.=3, automation,=1, constraints=1, variables,=1, observes=1, the
-availability=1, listing,=1, they=7, comprise=1, based=5, distinguish=1, them=2, then=4, something=1, existing
-testware=2, unique=1, run
-selected=1, form,=1, programs=3, characters,=1, 2.=1, device=1, subsets=1, checking=1, components=3, functional=1, engine.=1, structure
-diagram=1, augment=1, into=5, current=1, sut=15, one.
-the=1, analyzes=1, operating=1, so=4, key=3, situations=1, impacted=1, middle=1, gui.=1, necessary=3, one=7, correct
-permissions,�=1, many=5, designing=2, variables
-4.=1, confirm=1, single=1, correct
-running=1, effort.=2, associated=1, 4.=1, to=72, program.=1, exclude,
-and=1, but=4, there
+think=1, existing=3, form=4, although=1, interpret=2, humans=1, subset=2, very=1, modes=1, software
+today=1, 
+the=4, interacts=2, output=3, navigation=2, easily=3, unaware=1, model=7, usually=1, if=3, tasks=3, 
+introduction
+many=1, reduce=1, is
+important=1, test
+automation=2, to
+test=2, in=35, made=2, is=44, being=2, it=18, �program=1, printed=1, contents=2, messages=2, become=1, status=1, semantic=1, focuses=1, sequences=1, thinking=1, don�t=1, extraordinarily=1, eight=1, world=1, file=1, oracles=3, ability=2, side=1, the
+sut=2, may=15, implementing=1, could=1, change=4, draw=1, generally=1, 
+display=1, machine=1, able=1, �trained�=1, report=1, what
+things=1, facilities=1, compensate=1, use=3, several=6, second=3, that=32, sift=1, faster=2, split=2, solution=1, find=1, than=10, directly=2, different=8, communication=1, selected=1, occur=1, difficult=3, 
+frequently=1, includes=2, definitive=1, steps=1, becomes=2, relevant=3, feed=1, disk=1, task=2, true=1, retrieve=1, testware=8, present=1, errors=4, problems=5, since=1, no=2, legacy=1, and
+these=1, best=2, investigate=1, automation
+to=1, of=68, practical
+approaches=1, make=1, on=12, 
+which=1, highly=1, execution=2, processes=1, or=19, plays=1, interesting=1, control=3, depicted=1, demanding=1, structure=1, an
+automation=1, easier=2, descriptive=1, 
+models=1, architectures=2, indications=1, we
+must=1, vary=1, internal
+states=1, about=1, constraints=1, observes=1, exercises=1, the
+availability=1, they=7, comprise=1, based=5, distinguish=1, them=6, then=4, something=1, quality=1, existing
+testware=2, 
+that=1, unique=1, run
+selected=1, programs=6, device=1, subsets=1, checking=1, components=5, functional=1, fact=1, structure
+diagram=1, augment=1, into=5, current=1, sut=27, analyzes=2, operating=1, so=4, free=1, of
+events=1, key=3, situations=1, variables=2, impacted=1, middle=1, necessary=3, one=8, many=5, designing=2, confirm=1, single=1, correct
+running=1, associated=1, to=72, but=6, there
 is=1, available=4, numbers=1, rules=1, a
-mechanism=1, computations,=1, reacts=1, sut.
-but,=1, places
-and=1, occurs.�=1, with.=1, for
-these=1, generate=2, compromising=1, �data=1, oracle=3, ensure=1, parameters
+mechanism=1, 
+automated=1, 
+utilities=1, reacts=1, places
+and=1, for
+these=1, up=2, generate=2, compromising=1, �data=1, oracle=3, ensure=1, parameters
 �=1, running
-in=1, this=11, the
-sut,=1, software,=1, look=1, fits=1, effected=1, sections=1, software.=2, results
-8.=1, cost-effective.)
-�=1, incorrectly=1, automating
-testing.=1, especially=1, once=1, architecture,=1, know=2, systematically=1, architecture.=2, support=1, performing
-tasks=1, architecture.
-there=1, the
-program=1, records=2, cost-effective=1, needed=4, changes=2, results
-7.=1, we=26, doesn�t=1, the
+in=1, this=11, 
+understanding=1, look=1, fits=1, effected=1, sections=1, incorrectly=1, especially=1, once=1, know=2, systematically=1, support=1, performing
+tasks=1, and
+outputs=1, the
+program=1, records=2, 
+however=1, needed=4, changes=3, we=26, doesn�t=2, the
 process=1, interaction
 doesn�t=1, common=2, definition=2, a
 discussion=1, every=1, successful=1, with
 expected=1, and
-event=1, below.=1, figure=5, types=1, cases=6, apply=1, overlook=1, to
+event=1, run
+3=1, figure=5, types=1, characteristics=1, cases=9, apply=1, overlook=1, to
 compare=1, filters=1, tests
 manual=1, a
-unified=2, typed=1, itself.=1, outputs,=1, succeed=1, step=3, to
-minimize=1, passing=1, base=1, employ=1, simplistic=1, software=11, tested=4, tester=3, during=2, �the=1, beyond=1, tell
-us=1, reliable=1, compatible=1, problem=2, interrogations.=1, dependent=1, between=1, surrounding=1, pass/fail
-note=1, lose=1, utilization=1, semiautomated.=1, itself=1, knowing=1, run,=1, following=1, multiple
-incompatible=1, substantially=2, sut�s=2, internal=1, range=1, foundation=1, results3
-.
-a=1, tools=10, our=2, ourselves=1, specified=1, across=2, seeing=1, screens=1, labeling=1, verify=2, interfaces.=2, event=2, explains=1, interfaces,=1, the
-testing=1, include=5, practical,=1, state.=1, search
-criteria=1, state,=2, elements=12, unified=1, correctly,=2, ended=1, to
-test,=1, runs=1, existing
-automated=1, first=3, sets,=1, addresses=1, data=17, perfect=1, outputs,
-display=1, tests
-�=1, screen.=1, or
-comparing=1, (but,=1, deciding=1, it
-includes=1, etc.,=1, only=1, should=6, create=1, include
-operating=1, from=12, scm,=1, mechanisms=4, routines,=1, spell=1, like=2, resource=2, behaviors=1, expected
-results=1, capture=5, of
-automated=1, comparing=1, constrain=1, general,=1, sequences.=1, the
-form=1, can
-select=1, core=2, sequence=3, functions.=1, addressed=1, points.=1, person=1, interprets,=1, screen
-navigation,=1, space,
-printers,=1, intervention=1, form.)
-utilities=1, results
-�=1, test
-automation.=2, configuration=1, sets-up=1, error=1, can=24, inclusion=1, this
-means=1, paper=4, public=1, behavior.=1, internal
-variables=1, cost=4, will=1, satisfy=1, limited=1, advantage=1, inputs,=1, match=1, really=1, contents,=1, factors=9, corresponding=1, independently=1, intend=1, �=1}
+unified=2, typed=1, succeed=1, step=3, to
+minimize=1, passing=1, base=1, employ=1, simplistic=1, software=14, tested=5, tester=4, during=2, �the=1, displays=2, beyond=1, tell
+us=1, reliable=1, compatible=1, problem=2, dependent=1, between=1, surrounding=1, pass/fail
+note=1, work=1, lose=1, utilization=1, semiautomated=1, 
+two=1, itself=2, concatenation=1, knowing=1, 
+automating=1, following=1, multiple
+incompatible=1, substantially=2, sut�s=2, internal=1, range=1, foundation=1, tools=13, our=2, ourselves=1, specified=1, pictures=1, across=2, seeing=1, isn�t
+there=1, screens=1, labeling=1, verify=2, event=2, explains=1, the
+testing=1, some
+sut=1, include=6, automating
+testing=1, search
+criteria=1, results
+7=1, results
+8=1, elements=12, additionally=1, unified=1, ended=1, responses=1, runs=1, existing
+automated=1, first=3, addresses=1, data=18, perfect=1, tests
+�=1, space=1, or
+comparing=1, be
+considered=1, deciding=1, it
+includes=1, events
+1=1, only=1, should=6, create=1, include
+operating=1, from=12, mechanisms=4, readable=1, spell=1, like=2, resource=3, behaviors=1, 
+and=2, expected
+results=1, capture=6, of
+automated=1, comparing=1, constrain=1, failed=1, the
+form=1, �
+results=1, can
+select=1, core=2, sequence=5, addressed=1, person=1, intervention=1, results
+�=1, technical
+requirements=1, configuration=1, error=1, can=24, inclusion=1, this
+means=1, paper=4, public=1, internal
+variables=1, cases
+exist=1, cost=6, computations=1, will=1, satisfy=1, limited=1, advantage=1, match=1, really=1, factors=10, corresponding=1, independently=1, intend=1, �=4}

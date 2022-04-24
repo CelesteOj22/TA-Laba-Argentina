@@ -9,7 +9,7 @@ public class Sale{
     private Branch branch;
     private Customer customer;
     private ArrayList<Product> products;
-    private double total=0;
+    private double total;
 
     //Constructors
     public Sale(){}
@@ -50,10 +50,11 @@ public class Sale{
 
     //Methods
     public void total(){
+        this.setTotal(0.0);
         Iterator<Product> it = this.getProducts().iterator();
         while (it.hasNext()){
-            Addable add=(a,b)->(a+b);
-            this.setTotal(add.add(this.getTotal(),it.next().getPrice()));
+            Addable addable=(a,b)->(a+b);
+            this.setTotal(addable.add(this.getTotal(),it.next().getPrice()));
         }
     }
 
@@ -75,6 +76,7 @@ public class Sale{
     }
 
     public void showReceipt(){
+        //using Date
         Date dateTime = new Date();
         this.total();
         IPrint receipt= () -> {
