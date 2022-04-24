@@ -3,17 +3,15 @@ package org.Solvd.FastFoodENUMS;
 public class Food {
     private Menu menu;
     private PizzaType ptype;
+    private HamburguerType htype;
     private FoodStatus status;
 
-    Food(Menu menu,PizzaType ptype,FoodStatus status,String value){
+    Food(Menu menu,PizzaType ptype,HamburguerType htype,FoodStatus status){
         this.menu=menu;
         this.ptype=ptype;
+        this.htype=htype;
         this.status=status;
-
     }
-    public Menu getMenu(){return menu;}
-    public PizzaType getPizzaType(){return this.ptype;}
-    public FoodStatus getStatus(){return this.status;}
 
     enum Menu{
         PIZZA,
@@ -28,6 +26,17 @@ public class Food {
         PizzaType(String label){
             this.label=label;
         }
+        public String getLabel(){return this.label;}
+    }
+    enum HamburguerType{
+        SIMPLE("Simple"),
+        DOUBLECHEESE("Double cheese"),
+        VEGAN("Vegan");
+        public final String label;
+        HamburguerType(String label){
+            this.label=label;
+        }
+
     }
     enum FoodStatus{
         ORDERED,
