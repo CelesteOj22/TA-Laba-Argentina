@@ -23,8 +23,8 @@ public class Supplier extends Person{
     public String getEmail(){return this.email;}
 
     //Methods
-    public void supply(ISupply supply){
-        supply.supply("Shampoo");
+    public void supply(ISupply supply,String text){
+        supply.supply(text);
     }
     @Override
     public String toString(){
