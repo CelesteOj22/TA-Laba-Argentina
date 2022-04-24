@@ -6,12 +6,14 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.*;
+import java.util.stream.*;
+import java.time.*;
 
 public class Main {
     private static final Logger LOGGER = LogManager.getLogger(Main.class);
     public static void main(String[] args){
 
-        //Instantiate 2 employee
+        //Setting the employees date of birth - using Calendar instead of Date
         Calendar birthEmployee1= new GregorianCalendar();
         birthEmployee1.set(1992,Calendar.OCTOBER,22);
         Calendar birthEmployee2= new GregorianCalendar();
@@ -25,6 +27,9 @@ public class Main {
         employeeList.add(employee1);
         employeeList.add(employee2);
 
+        //Using streams to apply a filter to the employees list
+        List<Employee> result = employees.stream().filter(s->s.getName().startsWith("L")).collect(Collectors.toList());
+        System.out.println(result);
         //employees.forEach(System.out::println);
 
 
@@ -35,13 +40,16 @@ public class Main {
         LOGGER.info(branch1.toString());
 
 
-        //Instantiate Customer, Products, Event and Sale
-        Bank santander=new Bank(6,"Santander","adress123","santander@gmail.com");
+        //Instantiate Bank, Payment methods and Customers
+        Bank santander=new Bank(6,"Santander","address123","santander@gmail.com");
         PaymentMethod payment1 = new PaymentMethod(20);
         WireTransfer wireTransfer=new WireTransfer(22,santander,'2');
         PaymentMethod payment2=new PaymentMethod(wireTransfer);
+
         Customer customer1= new Customer(120,"Maria Lancaster", "Marcus St. 666", "88222993",123123,payment1);
         Customer customer2= new Customer(300,"Josh Lane", "Morengo St. 666", "99109290",666666,payment2);
+
+        //Applying lambda expressions
         IPay customer = (payment) -> LOGGER.info("Payment Method: Cash");
         customer.paymentMethod(payment1);
 
@@ -54,7 +62,7 @@ public class Main {
 
         Supplier shampooSupplier= new Supplier(1,"Tropical Labs","address 123","392021019","tropicalLabs@gmail.com");
         ISupply supplier = (text) -> System.out.println(text+" supplier");
-        shampooSupplier.supply(supplier);
+        shampooSupplier.supply(supplier,"shampoo");
 
         Product rice=new Product(1,"Rice","Minute","Food",25,expDate1);
         Product soap=new Product(2,"Soap","Dove","Bath",30,expDate2);
